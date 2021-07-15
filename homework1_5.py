@@ -11,6 +11,8 @@ if m == 'рус' or m == 'rus':
     print(f'{str[0]} стоит на {ord(str[0]) - a_rus} месте, a {str[1]} на {ord(str[1]) - a_rus}')
 elif m == 'eng':
     print(f'{str[0]} стоит на {ord(str[0]) - a} месте, a {str[1]} на {ord(str[1]) - a}')
+else:
+    print('Вы ввели что-то не то.')
 
 b = []
 for i in range(ord(str[0]), ord(str[1])): #сделала цикл для вывода букв
